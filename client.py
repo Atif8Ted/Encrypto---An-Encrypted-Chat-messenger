@@ -9,7 +9,7 @@ import signal
 
 os.system("clear")
 print """
-         ℰᾔ¢ґƴ℘☂◎
+         Welcome
 """
 print """
 
