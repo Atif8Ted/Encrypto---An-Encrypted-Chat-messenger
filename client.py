@@ -16,7 +16,7 @@ print """
 
 def sigint_handler(signum, frame):
     print '\n user interrupt ! shutting down'
-    print "[info] shutting down NEURON \n\n"
+    print "[info] shutting down Encrypto \n\n"
     sys.exit()	
     
 
@@ -50,7 +50,7 @@ def decrypt(secret,data):
 
 def chat_client():
     if(len(sys.argv) < 5) :
-        print 'Usage : python neuron.py <hostname> <port> <password> <nick_name>'
+        print 'Usage : python client.py <hostname> <port> <password> <nick_name>'
         sys.exit()
 
     host = sys.argv[1]
